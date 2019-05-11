@@ -43,6 +43,7 @@ function draw() {
             sprite.lineStyle(0); //
             sprite.beginFill(0xffffff, 1);
             sprite.drawCircle(x(node.x), y(node.y), 2);
+            // sprite.tint = node.z;
             sprite.endFill();
             points.push(sprite);
             // const sprite = new PIXI.Sprite(PIXI.Texture.WHITE);
